@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Инструкция пользователя по созданию технической документации в рамках подхода docs-as-code
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Инструкция рассчитана на начинающих технических писателей и создана, чтобы:  
 
-## Commands
+- познакомить их с понятием docs-as-code, его принципами и особенностями;
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- рассказать, какие инструменты нужны для создания технической документации в рамках подхода docs-as-code, и помочь их настроить;
 
-## Project layout
+- показать, как шаг за шагом с нуля пройти процесс создания и публикации технической документации в виде сайта.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
