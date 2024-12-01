@@ -3,8 +3,8 @@ site_description: Инструкция пользователя по работ�
 site_url: https://G-o-T.github.io/docs-as-code_manual # URL сайта
 copyright: © Created by Volya Gotovtseva # copyright
 nav:
-  - index.md
-  # - introduction.md
+  # - index.md
+  - introduction.md
   # - 2. Инструменты для реализации подхода docs-as-code:
   #   - tools/markup.md
   #   - tools/git.md
