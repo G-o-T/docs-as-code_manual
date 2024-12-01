@@ -5,11 +5,11 @@ copyright: © Created by Volya Gotovtseva # copyright
 nav:
   # - index.md
   - introduction.md
-  # - 2. Инструменты для реализации подхода docs-as-code:
-  #   - tools/markup.md
-  #   - tools/git.md
-  #   - tools/editor.md
-  #   - tools/ssg.md
+  - 2. Инструменты для реализации подхода docs-as-code:
+    - tools/markup.md
+    - tools/git.md
+    - tools/editor.md
+    - tools/ssg.md
   # - 3. Алгоритм создания технической документации в рамках подхода docs-as-code:
   #     - logic/environment.md
   #   - 3.2. Работа с репозиторием:
