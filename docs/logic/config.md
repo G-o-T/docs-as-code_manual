@@ -1,24 +1,12 @@
-site_name: Создание технической документации в рамках подхода docs-as-code # Название сайта
-site_description: Инструкция пользователя по работе с технической документацией в рамках подхода docs-as-code # Описание сайта, надо для meta-тегов
-site_url: https://G-o-T.github.io/docs-as-code_manual # URL сайта
-copyright: © Created by Volya Gotovtseva # copyright
+# 3.5. Настройка конфигурационного файла
+
+1. Скопируйте и вставьте в первую строку файла `mkdocs.yml` код:
+
+```
+site_name:  # Название сайта
+site_description:  # Описание сайта, надо для meta-тегов
 nav:
-  # - index.md
-  - introduction.md
-  - 2. Инструменты для реализации подхода docs-as-code:
-    - tools/markup.md
-    - tools/git.md
-    - tools/editor.md
-    - tools/ssg.md
-  - 3. Алгоритм создания технической документации в рамках подхода docs-as-code:
-    - logic/environment.md
-    - 3.2. Работа с репозиторием:
-      - logic/repository/create.md
-      - logic/repository/copy.md
-    - logic/project.md
-    - logic/deploy.md
-    - logic/config.md
-    - logic/content.md
+  - index.md
 theme: # Тема сайта и ее параметры
     name: material # Название темы
     logo: logo.png # Ссылка на логотип сайта
@@ -47,17 +35,6 @@ theme: # Тема сайта и ее параметры
       - search.suggest # Подсказки при вводе поискового запроса
       - search.highlight # Подсветка результатов поиска на странице
       - content.code.copy # Кнопка копирования в блоке кода
-# extra_css:
-#     - extra-styles.css
-extra:
-    generator: false
-    social:
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/gotovtseva/
-      name: LinkedIn 
-    - icon: fontawesome/brands/github
-      link: https://github.com/G-o-T
-      name: GitHub
 markdown_extensions: # Расширения markdown
   - def_list # Поддержка списков определений
   - pymdownx.tabbed # Поддержка табов
@@ -75,3 +52,7 @@ markdown_extensions: # Расширения markdown
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
       anchor_linenums: true
+```
+
+2. Скорректируйте значения ключей `site_name` и `site_description` в соответствии с разрабатываемой технической документацией.   
+3. Перенесите изменения из локальной копии в репозиторий.
